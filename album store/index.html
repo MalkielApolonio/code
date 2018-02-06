@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>  </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+    <script src="js/controller/mainController.js"></script>
+    <script src="js/controller/app.js"></script>
+
+  </head>
+  <body ng-app="myApp">
+
+  <div class="page-wrapper">
+    <div class="main" ng-controller="MainController">
+
+      <header>
+         <h1 class="pageTitle">Album Sale</h1>
+         <div class="globalNav">
+           <h4><a href="#">Home</a></h4>
+           <h4><a href="#">Featured</a></h4>
+           <h4><a href="#">Sale</a></h4>
+           <h4><a href="#">Tickets</a></h4>
+         </div>
+      </header>
+
+      <h1>{{title}}</h1>
+
+      <!-- <div class="cards" ng-repeat="#"> -->
+          <!-- <div class="albumName"> {{tu}} </div> -->
+          <!-- <div class="artist"> {{artist}} </div>
+          <div class="albumCover"> {{albumCover}} </div>
+          <div class="relDate"> {{relDate}} </div>
+          <div class="price"> {{price}} </div> -->
+      <!-- </div> -->
+
+    </div> <!-- close MainController -->
+   </div><!-- close page-wrapper -->
+<script src="js/directives/myDirectives.js"></script>
+  </body>
+</html>

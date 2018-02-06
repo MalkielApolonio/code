@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font: sans-serif;
+}
+
+.page-wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
